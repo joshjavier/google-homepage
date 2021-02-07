@@ -1,0 +1,38 @@
+/* || GLOBAL STYLES */
+
+/* Typography */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+               Helvetica, Arial, sans-serif, "Apple Color Emoji",
+               "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* || LAYOUT */
+
+/**
+ * header, main, and footer are flex items
+ * header and footer stick to the top and bottom of the page
+ * only main will expand to fill the page (flex-grow?)
+ * 
+ * header are flex items
+ * justify flex end
+ *
+ * footer 
+ */
+.flex {
+  display: flex;
+  flex-direction: column;
+}
