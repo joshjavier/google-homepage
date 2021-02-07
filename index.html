@@ -8,56 +8,65 @@
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-    <header>
-      <nav class="container row">
-        <a href="#">Gmail</a>
-        <a href="#">Images</a>
-        <a href="#"><img src="images/apps-icon.png" alt="Google apps"></a>
-        <a href="#">
-          <img
-            src="https://avatars.githubusercontent.com/u/46987872?v=4"
-            alt="Josh Javier's GitHub"
-            class="avatar"
-          />
-        </a>
-      </nav>
-    </header>
+    <div class="">
+      <header>
+        <nav class="row">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <a href="#"><img src="images/apps-icon.png" alt="Google apps"></a>
+          <a href="https://github.com/joshjavier" target="_blank" title="Check out my GitHub profile!">
+            <img
+              src="https://avatars.githubusercontent.com/u/46987872?v=4"
+              alt="Josh Javier's GitHub"
+              class="avatar"
+            />
+          </a>
+        </nav>
+      </header>
 
-    <main class="col">
-      <img
-        src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-        alt="Google logo"
-      />
-      <form action="">
-        <input type="text" value="" name="search-bar" id="search-bar"/>
-        <br>
-        <button type="submit">Google Search</button>
-        <button>I'm Feeling Lucky</button>
-      </form>
-      <p class="lang-options">
-        Google offered in: 
-        <a href="#">Filipino</a> 
-        <a href="#">Cebuano</a>
-      </p>
-    </main>
+      <main class="col">
+        <img
+          src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+          alt="Google logo"
+        />
+        <form action="" class="col">
+          <div class="search__bar row">
+            <img
+              src="https://img.icons8.com/fluent-systems-filled/24/000000/search.png"
+              class="search__icon"
+            />
+            <input type="text" value="" name="search-bar" id="search-bar"/>
+          </div>
+          <div class="search__buttons">
+            <button type="submit">Google Search</button>
+            <button>I'm Feeling Lucky</button>
+          </div>
+        </form>
+        <p class="lang-options">
+          Google offered in: 
+          <a href="#">Filipino</a> 
+          <a href="#">Cebuano</a>
+        </p>
+      </main>
 
-    <footer>
-      <div class="container">
-        <p>Philippines</p>
-      </div>
-      <nav class="container row">
-        <ul class="row nav__list">
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">How Search Works</a></li>
-        </ul>
-        <ul class="row nav__list">
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
-        </ul>
-      </nav>
-    </footer>
+      <footer>
+        <div class="">
+          <p>Philippines</p>
+        </div>
+        <nav class="row">
+          <ul class="row nav__list">
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">How Search Works</a></li>
+          </ul>
+          <ul class="row nav__list">
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Settings</a></li>
+          </ul>
+        </nav>
+      </footer>
+    </div>
   </body>
 </html>
