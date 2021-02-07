@@ -17,10 +17,6 @@ a:hover {
 
 /* Visual elements */
 
-button {
-  cursor: pointer;
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -36,7 +32,7 @@ ul {
 .col {
   display: flex;
   flex-direction: column;
-  gap: 1.5em;
+  gap: 2em;
 }
 
 .container {
@@ -48,7 +44,7 @@ ul {
 /* Header */
 
 header {
-  color: rgba(0,0,0,.80);
+  color: rgba(0, 0, 0, 80%);
   font-size: 0.85rem;
 }
 
@@ -77,13 +73,46 @@ main {
   /* gap: 1.5em; */
 }
 
+#search-bar {
+  border-radius: 50px;
+  border: 1px solid rgba(0, 0, 0, 10%);
+  height: 3em;
+  width: 550px;
+  padding-left: 3em;
+}
+
+#search-bar:hover,
+#search-bar:active {
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 20%);
+}
+
 .search__bar {
   align-items: center;
 }
 
 .search__icon {
   position: absolute;
-  opacity: 20%;
+  opacity: 30%;
+}
+
+.search__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+
+input[type="submit"] {
+  background: #f8f9fa;
+  color: #202124;
+  padding: 0.5em 1.25em;
+  border-radius: 5px;
+  border: 1px solid #f8f9fa;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid rgba(0, 0, 0, 10%);
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 10%);
 }
 
 .lang-options {

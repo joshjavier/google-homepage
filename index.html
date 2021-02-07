@@ -31,15 +31,18 @@
         />
         <form action="" class="col">
           <div class="search__bar row">
-            <img
-              src="https://img.icons8.com/fluent-systems-filled/24/000000/search.png"
-              class="search__icon"
-            />
-            <input type="text" value="" name="search-bar" id="search-bar"/>
+            <label for="search-bar">
+              <img
+                src="https://img.icons8.com/fluent-systems-filled/24/000000/search.png"
+                alt="search"
+                class="search__icon"
+              />
+            </label>
+            <input type="search" id="search-bar" name="q"/>
           </div>
           <div class="search__buttons">
-            <button type="submit">Google Search</button>
-            <button>I'm Feeling Lucky</button>
+            <input type="submit" value="Google Search">
+            <input type="submit" value="I'm Feeling Lucky">
           </div>
         </form>
         <p class="lang-options">
