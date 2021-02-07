@@ -1,4 +1,4 @@
-/* || GLOBAL STYLES */
+/* || GENERAL STYLES */
 
 /* Typography */
 
@@ -35,10 +35,6 @@ ul {
   gap: 2em;
 }
 
-.container {
-  justify-content: space-between;
-}
-
 /* || SECTION STYLES */
 
 /* Header */
@@ -69,8 +65,7 @@ header a {
 main {
   align-items: center;
   justify-content: center;
-  /* background: pink; */
-  /* gap: 1.5em; */
+  margin-top: 100px; /* not responsive. better with css grid? */
 }
 
 #search-bar {
@@ -93,6 +88,8 @@ main {
 .search__icon {
   position: absolute;
   opacity: 30%;
+  margin-top: -0.9em;
+  margin-left: 0.9em;
 }
 
 .search__buttons {
