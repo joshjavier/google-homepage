@@ -23,6 +23,7 @@ Some observations:
 
 ## Acknowledgments
 
+- Search icon from [Icons8](https://icons8.com/)
 - [Modern CSS Reset](https://github.com/hankchizljaw/modern-css-reset)
 - The stuff I learned from [Conquering Responsive Layouts](https://courses.kevinpowell.co/courses/conquering-responsive-layouts) has helped me with best practices and how to think about solving problems
 - [MDN Web Docs](https://developer.mozilla.org/en-US/), especially their articles on [Advanced form styling](https://developer.mozilla.org/en-US/docs/Learn/Forms/Advanced_form_styling), [Organizing CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Organizing), and the [`<input>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input)
